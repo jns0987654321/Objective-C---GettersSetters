@@ -13,6 +13,7 @@
 		5257D5441EAD3A7100D62742 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5257D5421EAD3A7100D62742 /* Main.storyboard */; };
 		5257D5461EAD3A7100D62742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5257D5451EAD3A7100D62742 /* Assets.xcassets */; };
 		5257D5491EAD3A7100D62742 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5257D5471EAD3A7100D62742 /* LaunchScreen.storyboard */; };
+		5257D5521EAD3A9500D62742 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5257D5511EAD3A9500D62742 /* Vehicle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		5257D5451EAD3A7100D62742 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5257D5481EAD3A7100D62742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5257D54A1EAD3A7100D62742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5257D5501EAD3A9500D62742 /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		5257D5511EAD3A9500D62742 /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		5257D5381EAD3A7100D62742 /* GettersSetters */ = {
 			isa = PBXGroup;
 			children = (
+				5257D5501EAD3A9500D62742 /* Vehicle.h */,
+				5257D5511EAD3A9500D62742 /* Vehicle.m */,
 				5257D53C1EAD3A7100D62742 /* AppDelegate.h */,
 				5257D53D1EAD3A7100D62742 /* AppDelegate.m */,
 				5257D53F1EAD3A7100D62742 /* ViewController.h */,
@@ -151,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5257D5521EAD3A9500D62742 /* Vehicle.m in Sources */,
 				5257D5411EAD3A7100D62742 /* ViewController.m in Sources */,
 				5257D53E1EAD3A7100D62742 /* AppDelegate.m in Sources */,
 				5257D53B1EAD3A7100D62742 /* main.m in Sources */,
